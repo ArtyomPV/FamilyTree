@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class FamilyTree {
     private ArrayList<Human> family;
 
-    public FamilyTree(ArrayList<Human> family) {
-        this.family = family;
+    public FamilyTree() {
+        this.family = new ArrayList<>();
     }
     public ArrayList<Human> addHuman(Human human){
         this.family.add(human);
