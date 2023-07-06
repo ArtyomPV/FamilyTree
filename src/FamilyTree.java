@@ -10,6 +10,11 @@ public class FamilyTree {
         this.family.add(human);
         return this.family;
     }
+    public void showFamilyMembers(){
+        for(Human human: this.family){
+            System.out.println(human);
+        }
+    }
 
 
 
